@@ -3,7 +3,7 @@ const puppeteer=require('puppeteer');
 let config ={
 
 	launchOptions:{
-		headless:false,
+		headless:true,
         //args: ['--use-gl=egl']
         args: ['--no-sandbox']
 	}
