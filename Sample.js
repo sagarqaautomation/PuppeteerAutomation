@@ -3,7 +3,8 @@ const puppeteer=require('puppeteer');
 let config ={
 
 	launchOptions:{
-		headless:false
+		headless:false,
+        args: ['--use-gl=egl']
 	}
 } 
 
