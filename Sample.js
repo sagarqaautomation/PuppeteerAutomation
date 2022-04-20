@@ -18,7 +18,7 @@ const login={
 puppeteer.launch(config.launchOptions).then(async browser=> {
  const page=await browser.newPage();
  await page.goto('https://app.hubspot.com/login');
- await page.waitFor(login.email);
+ await page.waitForSelector(login.email);
  await page.type(login.email,"puppeteer");
  await page.type(login.password,"puppeteer");
  await page.screenshot({path:'loginpage.png',fullPage:true})
