@@ -22,7 +22,7 @@ puppeteer.launch(config.launchOptions).then(async browser=> {
  await page.screenshot({path:'loginpage.png',fullPage:true})
 // if you want to generate pdf we need to run in headlessmode
  //await page.pdf({path:'loginpage.pdf'})
- //await browser.close();
+ await browser.close();
 
  
 	
