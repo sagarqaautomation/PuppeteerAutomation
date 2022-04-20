@@ -4,7 +4,8 @@ let config ={
 
 	launchOptions:{
 		headless:false,
-        args: ['--use-gl=egl']
+        //args: ['--use-gl=egl']
+        args: ['--no-sandbox']
 	}
 } 
 
