@@ -1,0 +1,23 @@
+{
+  "name": "puppeteerautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node Sample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarqaautomation/PuppeteerAutomation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagarqaautomation/PuppeteerAutomation/issues"
+  },
+  "homepage": "https://github.com/sagarqaautomation/PuppeteerAutomation#readme",
+  "dependencies": {
+    "puppeteer": "^13.6.0"
+  }
+}
